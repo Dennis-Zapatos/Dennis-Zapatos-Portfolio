@@ -370,6 +370,8 @@ img {
 /* ======================= PORTFOLIO ====================== */
 .portfolio__container {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 .project__content {
@@ -978,6 +980,7 @@ article a:hover {
   }
 }
 
+
 /* for medium device */
 @media screen and (min-width: 568px) {
   .icon {
@@ -1002,6 +1005,11 @@ article a:hover {
     margin: 0 2rem;
   }
   
+  .portfolio__container {
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
